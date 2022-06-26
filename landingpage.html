@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="background-color: #E4EEEE">
+    <center>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="landingpage.html">Landingpage</a>
@@ -28,7 +29,36 @@
         </div>
       </nav>
       <h1> Landingpage <span class="badge bg-secondary">Ponga sus datos</span></h1>
+      <br><br>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <h1>DATOS PERSONALES</h1>
+            <label>Marca de tennis favorita: </label>
+            <select name="tenisfav">
+                <option>Nike</option>
+                <option>Reebook</option>
+                <option>Adidas</option>
+                <option>Asics</option>
+            </select>
+            <br>
+            <label>Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required>
+            <br>
+            <label>Apellidos: </label>
+            <input type="text" name="apellidos" id="apellidos" required>
+            <br>
+            <label>Numero de telefono: </label>
+            <input type="number" name="telefono" id="telefono" required>
+            <br>
+            <label>Fecha de nacimiento: </label>
+            <input type="date" name="fechan" id="fechan" required>
+          </div>
+          <div class="col">
+            One of three columns
+          </div>
+        </div>
 
-    
+    </center>
 </body>
 </html>
